@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: helloworld
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ on:
       - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-watch:
+  watch:
     types: started
 
 env:
